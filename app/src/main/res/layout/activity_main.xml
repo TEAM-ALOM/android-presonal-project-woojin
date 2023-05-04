@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    >
+    android:padding="20dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
         android:gravity="center"
         android:text="학식 뭐 먹지?"
         android:textSize="6mm"
         android:textStyle="bold"
-        android:layout_marginBottom="30dp"
+        android:textColor="@color/sejong_red"
+        android:layout_marginTop="60dp"
         />
 
 
@@ -34,21 +36,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="어디서 먹지"
+                android:textColor="@color/black"
                 />
 
             <CheckBox
+                android:id="@+id/where_student"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="학생회관"
                 />
 
             <CheckBox
+                android:id="@+id/where_gunja"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="군자관"
                 />
 
             <CheckBox
+                android:id="@+id/where_jingwan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="진관홀"
@@ -71,21 +77,25 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="어떤 종류 먹지"
+                    android:textColor="@color/black"
                     />
 
                 <CheckBox
+                    android:id="@+id/type_rice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="밥"
                     />
 
                 <CheckBox
+                    android:id="@+id/type_noodle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="면"
                     />
 
                 <CheckBox
+                    android:id="@+id/type_soup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="탕,찌개"
@@ -103,19 +113,25 @@
         android:text="가격대 설정"
         android:textStyle="bold"
         android:gravity="center"
+        android:textSize="3mm"
+        android:textColor="@color/black"
         />
     <SeekBar
+        android:id="@+id/main_seekbar"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         />
 
     <Button
+        android:id="@+id/main_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:text="추천해줘"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/sejong_red"
         />
 
 

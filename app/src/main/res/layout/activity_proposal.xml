@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="20dp">
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/img_food"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/resutl_name"
+        />
+
+    <TextView
+        android:id="@+id/resutl_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:text="메뉴이름"
+        android:textColor="@color/black"
+        android:textSize="4mm"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/resutl_where"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resutl_name"
+        android:text="식당위치"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="3mm"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/resutl_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resutl_where"
+        android:text="메뉴 가격"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="3mm"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
