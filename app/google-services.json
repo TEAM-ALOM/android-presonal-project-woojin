@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "612457994634",
+    "project_id": "arom-haksikchu",
+    "storage_bucket": "arom-haksikchu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612457994634:android:7dc255c1a10fbd05dad073",
+        "android_client_info": {
+          "package_name": "com.example.alom_haksikchu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612457994634-djcrsa5un6rgave9v4qoar9ao8o28le7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATiJpV96tmeTV8RZZQgbUAqTYkOp4CLxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612457994634-djcrsa5un6rgave9v4qoar9ao8o28le7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
